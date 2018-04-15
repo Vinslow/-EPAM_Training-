@@ -1,0 +1,18 @@
+@keyframes myAwesomeAnimation {
+    0%{background:linear-gradient(45deg, #EECFBA, #C5DDE8); border-radius: 50%}
+    15%{border-radius: 0}
+    30% {background:linear-gradient(45deg, green, red);}
+    45%{transform: skew(15deg, 15deg); width: 150px; height: 150px;}
+    60%{transform: rotate(2rad);}
+    75%{background:linear-gradient(45deg, green, red); border-radius: 0}
+    100%{background:linear-gradient(45deg, white, blueviolet);border-radius: 50%;}
+}
+
+div {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    animation-name: myAwesomeAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
